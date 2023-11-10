@@ -13,3 +13,5 @@ una vez hecho esto debe realizar el siguiente paso
 1. para la conexion de la base de datos del Back debe ingresar al appsettings.json y cambiar las credenciales 
 
 se adjunta el analicis de la Base Datos en el siguiente link 
+https://drive.google.com/drive/folders/1Q3Say5DFlzXqPocXWavftB5CcBWp3Dit?usp=drive_link
+
