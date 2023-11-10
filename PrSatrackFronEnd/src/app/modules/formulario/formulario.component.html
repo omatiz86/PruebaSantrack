@@ -1,0 +1,12 @@
+<div>
+<form (ngSubmit)="guardarRegistro()">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" [(ngModel)]="inputHtml.nombre" name="nombre">
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" [(ngModel)]="inputHtml.email" name="email">
+    
+    <button type="submit">Guardar</button>
+  </form>
+  
+</div>

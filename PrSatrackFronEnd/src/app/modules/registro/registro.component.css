@@ -1,0 +1,35 @@
+.form-group {
+    margin-bottom: 10px; 
+}
+
+.tabla-con-margenes {
+    margin: 20px; 
+    border-collapse: collapse; 
+    width: 100%; 
+    font-family: Arial, sans-serif; 
+    border: 1px solid #dddddd; 
+}
+
+.tabla-con-margenes th, .tabla-con-margenes td {
+    padding: 8px; 
+    text-align: left; 
+    border: 1px solid #dddddd; 
+}
+
+.tabla-con-margenes th {
+    background-color: #f2f2f2; 
+    color: #333; 
+}
+
+.tabla-con-margenes tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+.tabla-con-margenes tr:hover {
+    background-color: #e0e0e0; 
+}
+
+.tabla-con-margenes td.botones {
+    text-align: center; 
+}
+

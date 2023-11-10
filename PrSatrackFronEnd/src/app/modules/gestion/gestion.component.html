@@ -1,0 +1,39 @@
+<br>
+<br>
+<div>
+    <form (ngSubmit)="guardarTransaccion()">
+
+        <label for="Documento">Documento:</label>
+        <input type="text" id="Documento" [(ngModel)]="inputTransaccion.Documento" name="Documento">
+        
+        <label for="IdProducto">Tipo de Producto:</label>
+        <select id="IdProducto" [(ngModel)]="inputTransaccion.IdProducto" name="IdProducto">
+          <option value="1">Cuenta Ahorros</option>
+          <option value="2">Cuenta Corriente</option>
+          <option value="3">CDTs</option>          
+        </select>
+
+        <label for="tipoTransaccion">Tipo de Transacción:</label>
+        <select id="tipoTransaccion" [(ngModel)]="inputTransaccion.TipoTransaccion" name="TipoTransaccion">
+          <option value="Deposito">Depósito</option>
+          <option value="Retiro">Retiro</option>          
+        </select>
+    
+        <label for="Monto">Monto:</label>
+        <input type="text" id="Monto" [(ngModel)]="inputTransaccion.Monto" name="Monto">
+
+        <button type="submit">Guardar</button>
+    </form>      
+</div>
+<br>
+<br>
+<br>
+<br>
+<div>
+    <form (ngSubmit)="cancelarProductCDT()">
+        <label for="idCDT">Id Producto CDT:</label>
+        <input type="text" id="idCDT" name="idCDT">
+        <button type="submit">Cancelar</button>
+    </form>  
+</div>
+

@@ -1,0 +1,127 @@
+<div>
+    <form (ngSubmit)="guardarRegistro()">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" [(ngModel)]="inputHtml.nombre" name="nombre">
+    </div>
+
+    <div class="form-group">
+            <label for="tipoDocumento">tipo Documento:</label>
+            <select id="tipoDocumento" [(ngModel)]="inputHtml.tipoDocumento" name="tipoDocumento">
+                <option value="Cedula">Cedula</option>
+                <option value="Nit">Nit</option>                      
+            </select>
+    </div>
+        <div class="form-group" *ngIf="inputHtml.tipoDocumento === 'Cedula'">
+        <label for="documento">documento:</label>
+        <input type="text" id="documento" [(ngModel)]="inputHtml.documento" name="documento">
+    </div>
+
+    <div class="form-group" *ngIf="inputHtml.tipoDocumento === 'Nit'">
+        <label for="nit">Nit:</label>
+        <input type="text" id="nit" [(ngModel)]="inputHtml.nit" name="nit">
+    </div>
+
+        <div class="form-group">
+        <label for="tipoCliente">tipo Cliente:</label>        
+        <select id="tipoCliente" [(ngModel)]="inputHtml.tipoCliente" name="tipoCliente">
+            <option value="Natural">Natural</option>
+            <option value="Juridico">Juridico</option>                      
+        </select>
+    </div>
+
+        <div class="form-group">
+        <label for="telefonoContacto">telefonoContacto:</label>
+        <input type="text" id="telefonoContacto" [(ngModel)]="inputHtml.telefonoContacto" name="telefonoContacto">
+    </div>
+        <div class="form-group">
+        <label for="fechaNacimiento">fechaNacimiento:</label>
+        <input type="date" id="fechaNacimiento" [(ngModel)]="inputHtml.fechaNacimiento" name="fechaNacimiento">
+    </div>
+
+        <div class="form-group">
+        <label for="dirección">dirección:</label>
+        <input type="text" id="dirección" [(ngModel)]="inputHtml.direccion" name="dirección">
+    </div>
+<!--
+    <div class="form-group">
+        <label for="idUbicacion">idUbicacion:</label>
+        <input type="text" id="idUbicacion" [(ngModel)]="inputHtml.idUbicacion" name="idUbicacion">
+    </div>
+-->
+    <div class="form-group">
+        <label for="idUbicacion">idUbicacion:</label>
+        <select id="idUbicacion" [(ngModel)]="inputHtml.idUbicacion" name="idUbicacion">
+          <option value="01001" selected>Bogota</option>
+          <option *ngFor="let ubicacion of ubicaciones" [value]="ubicacion.descripcion">{{ ubicacion.descripcion }}</option>
+        </select>
+      </div>
+
+        <div class="form-group">
+        <label for="correoElectronico">correoElectrónico:</label>
+        <input type="email" id="correoElectronico" [(ngModel)]="inputHtml.correoElectronico" name="correoElectronico">
+    </div>
+
+        <div class="form-group">
+        <label for="genero">género:</label>
+        <input type="text" id="genero" [(ngModel)]="inputHtml.genero" name="genero">
+    </div>
+
+        <div class="form-group">
+        <label for="notas">notas:</label>
+        <input type="text" id="notas" [(ngModel)]="inputHtml.notas" name="notas">
+    </div>
+
+      <!--  <div class="form-group">
+        <label for="idcliente">idcliente:</label>
+        <input type="text" id="idcliente" [(ngModel)]="inputHtml.idcliente" name="idcliente">
+    </div>
+-->
+        <button type="submit">Guardar</button>
+    </form>      
+</div>
+<br>
+<br>
+<div >
+    <table id="tblClientes" class="tabla-con-margenes">
+        <thead>
+          <tr>
+            <th>idcliente</th>
+            <th>nombre</th>
+            <th>tipoDocumento</th>
+            <th>documento</th>
+            <th>nit</th>
+            <th>tipoCliente</th>
+            <th>telefonoContacto</th>
+            <th>fechaNacimiento</th>
+            <th>direccion</th>
+            <th>idUbicacion</th>
+            <th>correoElectronico</th>
+            <th>genero</th>
+            <th>notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let dataHtml of dataTable">
+            <td>{{ dataHtml.idcliente }}</td>
+            <td>{{ dataHtml.nombre }}</td>
+            <td>{{ dataHtml.tipoDocumento }}</td>
+            <td>{{ dataHtml.documento }}</td>
+            <td>{{ dataHtml.nit }}</td>
+            <td>{{ dataHtml.tipoCliente }}</td>
+            <td>{{ dataHtml.telefonoContacto }}</td>
+            <td>{{ dataHtml.fechaNacimiento }}</td>
+            <td>{{ dataHtml.idUbicacion }}</td>
+            <td>{{ dataHtml.direccion }}</td>
+            <td>{{ dataHtml.idUbicacion }}</td>
+            <td>{{ dataHtml.correoElectronico }}</td>
+            <td>{{ dataHtml.genero }}</td>
+            <td>{{ dataHtml.notas }}</td>             
+          </tr>
+        </tbody>
+    </table>
+</div>
+
+    
+      
+    

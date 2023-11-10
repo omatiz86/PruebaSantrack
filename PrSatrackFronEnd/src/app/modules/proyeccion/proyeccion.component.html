@@ -1,0 +1,20 @@
+<div >
+    <table>
+        <thead>
+          <tr>
+            <th>Mes</th>
+            <th>Documento Cliente</th>
+            <th>Saldo Total</th>            
+          </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let dataHtml of dataPromedio">
+            <td>{{ dataHtml.Mes }}</td>
+            <td>{{ dataHtml.DocumentoCliente }}</td>
+            <td>{{ dataHtml.SaldoTotal }}</td>            
+          </tr>
+        </tbody>
+      </table>
+      
+    </div>
+    
