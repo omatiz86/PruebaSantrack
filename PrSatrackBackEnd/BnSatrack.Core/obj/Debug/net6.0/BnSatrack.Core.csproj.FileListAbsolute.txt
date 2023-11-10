@@ -1,0 +1,12 @@
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\bin\Debug\net6.0\BnSatrack.Core.deps.json
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\bin\Debug\net6.0\BnSatrack.Core.dll
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\bin\Debug\net6.0\BnSatrack.Core.pdb
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\obj\Debug\net6.0\BnSatrack.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\obj\Debug\net6.0\BnSatrack.Core.AssemblyInfoInputs.cache
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\obj\Debug\net6.0\BnSatrack.Core.AssemblyInfo.cs
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\obj\Debug\net6.0\BnSatrack.Core.csproj.CoreCompileInputs.cache
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\obj\Debug\net6.0\BnSatrack.Core.dll
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\obj\Debug\net6.0\refint\BnSatrack.Core.dll
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\obj\Debug\net6.0\BnSatrack.Core.pdb
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\obj\Debug\net6.0\ref\BnSatrack.Core.dll
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Core\obj\Debug\net6.0\BnSatrack.Core.csproj.AssemblyReference.cache

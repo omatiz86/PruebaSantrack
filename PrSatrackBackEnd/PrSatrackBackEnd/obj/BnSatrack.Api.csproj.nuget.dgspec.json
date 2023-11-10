@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\PrSatrackBackEnd\\BnSatrack.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Core\\BnSatrack.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Core\\BnSatrack.Core.csproj",
+        "projectName": "BnSatrack.Core",
+        "projectPath": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Core\\BnSatrack.Core.csproj",
+        "packagesPath": "C:\\Users\\ochacon\\.nuget\\packages\\",
+        "outputPath": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ochacon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\1.Sln\\MinHac\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Infrastructure\\BnSatrack.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Infrastructure\\BnSatrack.Infrastructure.csproj",
+        "projectName": "BnSatrack.Infrastructure",
+        "projectPath": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Infrastructure\\BnSatrack.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ochacon\\.nuget\\packages\\",
+        "outputPath": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ochacon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\1.Sln\\MinHac\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Core\\BnSatrack.Core.csproj": {
+                "projectPath": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Core\\BnSatrack.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\PrSatrackBackEnd\\BnSatrack.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\PrSatrackBackEnd\\BnSatrack.Api.csproj",
+        "projectName": "BnSatrack.Api",
+        "projectPath": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\PrSatrackBackEnd\\BnSatrack.Api.csproj",
+        "packagesPath": "C:\\Users\\ochacon\\.nuget\\packages\\",
+        "outputPath": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\PrSatrackBackEnd\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ochacon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\1.Sln\\MinHac\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Core\\BnSatrack.Core.csproj": {
+                "projectPath": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Core\\BnSatrack.Core.csproj"
+              },
+              "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Infrastructure\\BnSatrack.Infrastructure.csproj": {
+                "projectPath": "C:\\1.Sln\\Dummys\\Satrack\\PrSatrackBackEnd\\BnSatrack.Infrastructure\\BnSatrack.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Contrib.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

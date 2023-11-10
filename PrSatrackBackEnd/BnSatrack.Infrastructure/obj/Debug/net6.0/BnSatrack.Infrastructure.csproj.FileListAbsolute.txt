@@ -1,0 +1,17 @@
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\bin\Debug\net6.0\BnSatrack.Infrastructure.deps.json
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\bin\Debug\net6.0\BnSatrack.Infrastructure.runtimeconfig.json
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\bin\Debug\net6.0\BnSatrack.Infrastructure.dll
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\bin\Debug\net6.0\BnSatrack.Infrastructure.pdb
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\bin\Debug\net6.0\BnSatrack.Core.dll
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\bin\Debug\net6.0\BnSatrack.Core.pdb
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\BnSatrack.Infrastructure.csproj.AssemblyReference.cache
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\BnSatrack.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\BnSatrack.Infrastructure.AssemblyInfoInputs.cache
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\BnSatrack.Infrastructure.AssemblyInfo.cs
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\BnSatrack.Infrastructure.csproj.CoreCompileInputs.cache
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\BnSatrack.Infrastructure.csproj.CopyComplete
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\BnSatrack.Infrastructure.dll
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\refint\BnSatrack.Infrastructure.dll
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\BnSatrack.Infrastructure.pdb
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\BnSatrack.Infrastructure.genruntimeconfig.cache
+C:\1.Sln\Dummys\Satrack\PrSatrackBackEnd\BnSatrack.Infrastructure\obj\Debug\net6.0\ref\BnSatrack.Infrastructure.dll
